@@ -6,7 +6,7 @@
 getLoginUserInfo
 ```
 
-> URL: http://localhost:8080/user/getLoginUserInfo
+> URL: http://localhost:8080/user/getLoginUserInfo?tokenValue=tokenValue_a9ed4&issuedAt.seconds=1&issuedAt.nanos=1&expiresAt.seconds=1&expiresAt.nanos=1
 >
 > Origin Url: http://localhost:8080/user/getLoginUserInfo
 >
@@ -31,6 +31,11 @@ getLoginUserInfo
 
 |Required| Parameter | Type | Value | Description |
 |---------|---------|------|------|------------|
+|true|tokenValue|String|tokenValue_a9ed4||
+|true|issuedAt.seconds|Number|1||
+|true|issuedAt.nanos|Number|1||
+|true|expiresAt.seconds|Number|1||
+|true|expiresAt.nanos|Number|1||
 
 
 ##### Body parameters
@@ -84,23 +89,7 @@ null
 
 ##### Response document
 ```
-{
-	"code":"No comment,Type =Number",
-	"data":{
-		"note":"No comment,Type =String",
-		"creator":"No comment,Type =String",
-		"loginTime":"No comment,Type =String",
-		"deleted":"No comment,Type =Boolean",
-		"createTime":"No comment,Type =String",
-		"nickname":"用户昵称",
-		"id":"ID",
-		"type":"No comment,Type =Boolean",
-		"username":"用户名",
-		"updater":"No comment,Type =String",
-		"lastUpdateTime":"No comment,Type =String"
-	},
-	"message":"No comment,Type =String"
-}
+null
 ```
 
 
