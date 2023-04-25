@@ -40,8 +40,8 @@ updatePassword
 ```
 {
   "username": "root",
-  "oldPassword": "root",
-  "newPassword": "root1"
+  "oldPassword": "root1",
+  "newPassword": "root"
 }
 ```
 
@@ -49,9 +49,9 @@ updatePassword
 
 ```
 {
-	"oldPassword":"No comment,Value =oldPassword_utije",
-	"newPassword":"No comment,Value =newPassword_bw8wq",
-	"username":"No comment,Value =username_utr63"
+	"oldPassword":"No comment,Value =oldPassword_8qaj4",
+	"newPassword":"No comment,Value =newPassword_knrla",
+	"username":"No comment,Value =username_fa7lv"
 }
 ```
 
