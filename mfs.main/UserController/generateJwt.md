@@ -6,7 +6,7 @@
 generateJwt
 ```
 
-> URL: http://localhost:8080/user/generateJwt?tokenValue=tokenValue_x7mni&issuedAt.seconds=1&issuedAt.nanos=1&expiresAt.seconds=1&expiresAt.nanos=1
+> URL: http://localhost:8080/user/generateJwt
 >
 > Origin Url: http://localhost:8080/user/generateJwt
 >
@@ -31,11 +31,6 @@ generateJwt
 
 |Required| Parameter | Type | Value | Description |
 |---------|---------|------|------|------------|
-|true|tokenValue|String|tokenValue_x7mni||
-|true|issuedAt.seconds|Number|1||
-|true|issuedAt.nanos|Number|1||
-|true|expiresAt.seconds|Number|1||
-|true|expiresAt.nanos|Number|1||
 
 
 ##### Body parameters
@@ -89,7 +84,7 @@ generateJwt
 {
   "code": 200,
   "message": "操作成功",
-  "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2OWJiYmY3MS0zMmY2LTQ5YzAtYWZmOS00NjY2YzgzYmE0MWQiLCJpc3MiOiIwYzU5OTg5ZDM5NzAzODBhZTE2ODg4MDY4NmM0YTA3MCIsInN1YiI6InRlc3QxIiwiZXhwIjoxLCJhdWQiOiJtZnMiLCJzY29wZSI6WyJ1c2VyTWFuIiwiZ2V0Snd0IiwiZ2VuZXJhdGVKd3QiLCJzZWFyY2hTZXNzaW9uIiwicm9sZSIsImtpY2tvdXQiLCJkaXNhYmxlIiwiY29ubmVjdCIsInB1c2giLCJwdWJsaXNoIiwiY29uc3VtZSIsInF1ZXJ5Il19.8Af1ne_tRq5Ezf54XU1Bx1WUET1uV3bZkfoyo7WIzl0"
+  "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyZmYzYjM1NS1mNGYwLTQ0NzktYjUxNS0wMTlmNjFiMjBjYjgiLCJpc3MiOiIwYzU5OTg5ZDM5NzAzODBhZTE2ODg4MDY4NmM0YTA3MCIsInN1YiI6InRlc3QxIiwiZXhwIjoxLCJhdWQiOiJtZnMiLCJzY29wZSI6WyJ1c2VyTWFuIiwiZ2V0Snd0IiwiZ2VuZXJhdGVKd3QiLCJzZWFyY2hTZXNzaW9uIiwicm9sZSIsImtpY2tvdXQiLCJkaXNhYmxlIiwiY29ubmVjdCIsInB1c2giLCJwdWJsaXNoIiwiY29uc3VtZSIsInF1ZXJ5Il19.66FAD9CqX6gF-zY4xnan7PQjVwNa8DiUQkxkgtie_9A"
 }
 ```
 
