@@ -6,7 +6,7 @@
 getRoleListByUserId
 ```
 
-> URL: http://localhost:8080/user/getRoleListByUserId?userId=0a30044edb19099f6e00e4593ed3fb42
+> URL: http://localhost:8080/user/getRoleListByUserId?userId=0c59989d3970380ae168880686c4a070
 >
 > Origin Url: http://localhost:8080/user/getRoleListByUserId
 >
@@ -66,7 +66,80 @@ getRoleListByUserId
 {
   "code": 200,
   "message": "操作成功",
-  "data": []
+  "data": [
+    {
+      "id": "1",
+      "name": "userMan",
+      "description": "用户管理",
+      "deleted": 0
+    },
+    {
+      "id": "2",
+      "name": "getJwt",
+      "description": null,
+      "deleted": 0
+    },
+    {
+      "id": "3",
+      "name": "generateJwt",
+      "description": null,
+      "deleted": 0
+    },
+    {
+      "id": "4",
+      "name": "searchSession",
+      "description": "会话查询",
+      "deleted": 0
+    },
+    {
+      "id": "5",
+      "name": "role",
+      "description": "角色管理",
+      "deleted": 0
+    },
+    {
+      "id": "6",
+      "name": "kickout",
+      "description": null,
+      "deleted": 0
+    },
+    {
+      "id": "7",
+      "name": "disable",
+      "description": "账号封禁",
+      "deleted": 0
+    },
+    {
+      "id": "8",
+      "name": "connect",
+      "description": null,
+      "deleted": 0
+    },
+    {
+      "id": "9",
+      "name": "push",
+      "description": null,
+      "deleted": 0
+    },
+    {
+      "id": "10",
+      "name": "publish",
+      "description": null,
+      "deleted": 0
+    },
+    {
+      "id": "11",
+      "name": "consume",
+      "description": null,
+      "deleted": 0
+    },
+    {
+      "id": "12",
+      "name": "query",
+      "description": null,
+      "deleted": 0
+    }
+  ]
 }
 ```
 
