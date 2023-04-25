@@ -63,7 +63,7 @@ null
 ##### Response example
 
 ```
-0
+1
 ```
 
 ##### Response document
