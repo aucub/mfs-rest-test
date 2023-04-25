@@ -6,7 +6,7 @@
 getLoginUserInfo
 ```
 
-> URL: http://localhost:8080/user/getLoginUserInfo?tokenValue=tokenValue_a9ed4&issuedAt.seconds=1&issuedAt.nanos=1&expiresAt.seconds=1&expiresAt.nanos=1
+> URL: http://localhost:8080/user/getLoginUserInfo
 >
 > Origin Url: http://localhost:8080/user/getLoginUserInfo
 >
@@ -31,11 +31,6 @@ getLoginUserInfo
 
 |Required| Parameter | Type | Value | Description |
 |---------|---------|------|------|------------|
-|true|tokenValue|String|tokenValue_a9ed4||
-|true|issuedAt.seconds|Number|1||
-|true|issuedAt.nanos|Number|1||
-|true|expiresAt.seconds|Number|1||
-|true|expiresAt.nanos|Number|1||
 
 
 ##### Body parameters
@@ -72,15 +67,15 @@ null
   "code": 200,
   "message": "操作成功",
   "data": {
-    "id": null,
-    "username": null,
-    "nickname": null,
+    "id": "0c59989d3970380ae168880686c4a070",
+    "username": "root",
+    "nickname": "root",
     "creator": null,
-    "createTime": null,
+    "createTime": "2023-04-02 17:40:20",
     "updater": null,
-    "lastUpdateTime": null,
-    "loginTime": null,
-    "type": null,
+    "lastUpdateTime": "2023-04-02 17:43:33",
+    "loginTime": "2023-04-02 17:43:33",
+    "type": false,
     "note": null,
     "deleted": null
   }
