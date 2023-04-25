@@ -63,7 +63,21 @@ null
 ##### Response example
 
 ```
-[]
+[
+  {
+    "id": "0c59989d3970380ae168880686c4a070",
+    "username": "root",
+    "nickname": "root",
+    "creator": null,
+    "createTime": "2023-04-02 17:40:20",
+    "updater": null,
+    "lastUpdateTime": "2023-04-02 17:43:33",
+    "loginTime": "2023-04-02 17:43:33",
+    "type": false,
+    "note": null,
+    "deleted": null
+  }
+]
 ```
 
 ##### Response document
