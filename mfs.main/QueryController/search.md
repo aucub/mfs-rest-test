@@ -40,8 +40,8 @@ search
 ```
 {
   "uid": "PublishRecord",
-  "keyword": "Foo",
-  "offset": 0
+  "keyword": "foo",
+  "offset": 1
 }
 ```
 
@@ -49,9 +49,9 @@ search
 
 ```
 {
-	"uid":"No comment,Value =uid_uugqk",
+	"uid":"No comment,Value =uid_oap3o",
 	"offset":"No comment,Value =1",
-	"keyword":"No comment,Value =keyword_iuoxo"
+	"keyword":"No comment,Value =keyword_e9gst"
 }
 ```
 
@@ -73,31 +73,6 @@ search
 ```
 {
   "hits": [
-    {
-      "submit": null,
-      "subject": "message",
-      "_matchesPosition": {
-        "source": [
-          {
-            "start": 18,
-            "length": 3
-          }
-        ]
-      },
-      "messageId": "2ea6b2da-0052-4600-a0c7-0260288fe13c",
-      "source": "https://spring.io/foos",
-      "type": "io.spring.event.Foo",
-      "priority": 0,
-      "dataContentType": "application/cloudevents+json",
-      "body": "\"newFo000000\"",
-      "userId": "0c59989d3970380ae168880686c4a070",
-      "delay": 0,
-      "appId": null,
-      "contentEncoding": "text/plain",
-      "expiration": null,
-      "publishingId": 1100419821390004224,
-      "time": 1.6824021302330775E9
-    },
     {
       "submit": null,
       "subject": "message",
@@ -325,9 +300,9 @@ search
     }
   ],
   "facetDistribution": null,
-  "processingTimeMs": 1,
-  "query": "Foo",
-  "offset": 0,
+  "processingTimeMs": 0,
+  "query": "foo",
+  "offset": 1,
   "limit": 100,
   "estimatedTotalHits": 10
 }
