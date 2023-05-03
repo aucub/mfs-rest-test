@@ -41,9 +41,7 @@
 {
   "userId": "0c59989d3970380ae168880686c4a070",
   "route": "status",
-  "body": [
-    1
-  ]
+  "body": "1111"
 }
 ```
 
@@ -76,7 +74,7 @@
 ##### Response example
 
 ```
-true
+
 ```
 
 ##### Response document
