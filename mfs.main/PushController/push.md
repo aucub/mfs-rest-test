@@ -41,7 +41,7 @@
 {
   "userId": "0c59989d3970380ae168880686c4a070",
   "route": "status",
-  "body": "1111"
+  "body": "test"
 }
 ```
 
@@ -49,12 +49,10 @@
 
 ```
 {
-	"route":"No comment,Value =route_teqen",
-	"id":"No comment,Value =id_4qh7q",
-	"body":[
-		"No comment,Value =1"
-	],
-	"userId":"No comment,Value =userId_r4y4y"
+	"route":"No comment,Value =route_57fil",
+	"id":"No comment,Value =id_xpisa",
+	"body":"No comment,Value =body_aq8p6",
+	"userId":"No comment,Value =userId_31hlw"
 }
 ```
 
