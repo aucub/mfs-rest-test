@@ -6,7 +6,7 @@
 updatePassword
 ```
 
-> URL: http://localhost:8080/login/updatePassword
+> URL: http://localhost:8080/login/updatePassword?tokenValue=tokenValue_k1ntk&issuedAt.seconds=1&issuedAt.nanos=1&expiresAt.seconds=1&expiresAt.nanos=1
 >
 > Origin Url: http://localhost:8080/login/updatePassword
 >
@@ -17,7 +17,7 @@ updatePassword
 
 |Header Name| Header Value|
 |---------|------|
-|Authorization|Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkMDcwNjI2ZC0wZTM2LTQzZDctOWY0YS0xODM3MzA4Njg0M2QiLCJpc3MiOiIwYzU5OTg5ZDM5NzAzODBhZTE2ODg4MDY4NmM0YTA3MCIsInN1YiI6IjBjNTk5ODlkMzk3MDM4MGFlMTY4ODgwNjg2YzRhMDcwIiwiZXhwIjoxNjgyOTk3ODQ5LCJhdWQiOiJtZnMiLCJzY29wZSI6WyJ1c2VyTWFuIiwiZ2VuZXJhdGVKd3QiLCJzZWFyY2hPbmxpbmUiLCJyb2xlIiwiY29ubmVjdCIsInB1c2giLCJwdWJsaXNoIiwiY29uc3VtZSIsInF1ZXJ5Il19.c4kxRX2E9vgApGjTaEKzMcemlePZARVLAAdcemejQw4|
+|Authorization|Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5MTUzYWMzMy1iYTk1LTQxMjktOTZlMy05NmJjNTEwMjJjZWYiLCJpc3MiOiIwYzU5OTg5ZDM5NzAzODBhZTE2ODg4MDY4NmM0YTA3MCIsInN1YiI6IjBjNTk5ODlkMzk3MDM4MGFlMTY4ODgwNjg2YzRhMDcwIiwiZXhwIjoxNjgzNjM5MzU4LCJhdWQiOiJtZnMiLCJzY29wZSI6WyJ1c2VyTWFuIiwiZ2VuZXJhdGVKd3QiLCJzZWFyY2hPbmxpbmUiLCJyb2xlIiwiY29ubmVjdCIsInB1c2giLCJwdWJsaXNoIiwiY29uc3VtZSIsInF1ZXJ5Il19.PeP-drer_ZZnAst-kv-mAi2FAa5oCf28QCHhv_DbPLU|
 
 ### Parameters
 
@@ -31,6 +31,11 @@ updatePassword
 
 |Required| Parameter | Type | Value | Description |
 |---------|---------|------|------|------------|
+|true|tokenValue|String|tokenValue_k1ntk||
+|true|issuedAt.seconds|Number|1||
+|true|issuedAt.nanos|Number|1||
+|true|expiresAt.seconds|Number|1||
+|true|expiresAt.nanos|Number|1||
 
 
 ##### Body parameters
@@ -39,9 +44,8 @@ updatePassword
 
 ```
 {
-  "username": "root",
-  "oldPassword": "root1",
-  "newPassword": "root"
+  "oldPassword": "root",
+  "newPassword": "rootroot"
 }
 ```
 
@@ -49,9 +53,9 @@ updatePassword
 
 ```
 {
-	"oldPassword":"No comment,Value =oldPassword_8qaj4",
-	"newPassword":"No comment,Value =newPassword_knrla",
-	"username":"No comment,Value =username_fa7lv"
+	"oldPassword":"No comment,Value =oldPassword_6zkhf",
+	"newPassword":"No comment,Value =newPassword_73nor",
+	"id":"No comment,Value =id_zk73p"
 }
 ```
 
